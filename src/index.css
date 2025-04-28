@@ -3,11 +3,16 @@
 @theme {
   --color-pink: #f8eeff;
   --color-text-color: #8b6990;
-
+  --color-hover-color: #ad28eb;
+  --color-dark-purple: #301534;
   --breakpoint-sm: 390px;
   --breakpoint-md: 600px;
 }
 
 body {
   background-color: #f8eeff;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
