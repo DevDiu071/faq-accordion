@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <div className="md:pt-[167px] pt-[142px]  md:bg-[url('/assets/images/background-pattern-desktop.svg')] bg-[url('/assets/images/background-pattern-mobile.svg')] bg-top bg-fixed md:h-[320px] h-[232px] ">
-      <div className="max-w-[600px] py-4 md:pt-[40px] md:pb-7 shadow-sm bg-white md:mx-auto mx-6 rounded-xl px-6 md:px-[40px]">
+      <div className="max-w-[600px] py-4 md:pt-[40px] md:pb-[35px] shadow-sm bg-white md:mx-auto mx-6 rounded-xl px-6 md:px-[40px]">
         <div className="flex items-center gap-x-6 ">
           <img
             src="/assets/images/icon-star.svg"
@@ -38,7 +38,7 @@ export default function App() {
                 className="text-[18px] mt-4 font-semibold"
               >
                 <button
-                  className="flex cursor-pointer hover:text-hover-color transition-all text-dark-purple items-center w-full justify-between"
+                  className="flex text-start cursor-pointer hover:text-hover-color transition-all text-dark-purple items-center w-full justify-between"
                   aria-expanded={toggleStates[0]}
                   aria-controls="accordion-panel-1"
                   id="accordion-button-1"
@@ -102,7 +102,7 @@ export default function App() {
                 className="text-[18px] font-semibold"
               >
                 <button
-                  className="flex cursor-pointer hover:text-hover-color transition-all text-dark-purple items-center w-full justify-between"
+                  className="flex text-start cursor-pointer hover:text-hover-color transition-all text-dark-purple items-center w-full justify-between"
                   aria-expanded={toggleStates[1]}
                   aria-controls="accordion-panel-1"
                   id="accordion-button-1"
@@ -165,7 +165,7 @@ export default function App() {
                 className="text-[18px] font-semibold"
               >
                 <button
-                  className="flex cursor-pointer hover:text-hover-color transition-all text-dark-purple items-center w-full justify-between"
+                  className="flex text-start cursor-pointer hover:text-hover-color transition-all text-dark-purple items-center w-full justify-between"
                   aria-expanded={toggleStates[2]}
                   aria-controls="accordion-panel-3"
                   id="accordion-button-3"
@@ -227,7 +227,7 @@ export default function App() {
                 className="text-[18px] font-semibold "
               >
                 <button
-                  className="flex cursor-pointer hover:text-hover-color transition-all text-dark-purple items-center w-full justify-between"
+                  className="flex text-start cursor-pointer hover:text-hover-color transition-all text-dark-purple items-center w-full justify-between"
                   aria-expanded={toggleStates[3]}
                   aria-controls="accordion-panel-4"
                   id="accordion-button-4"
