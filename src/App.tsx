@@ -17,8 +17,8 @@ export default function App() {
 
   return (
     <div className="md:pt-[167px] pt-[142px]  md:bg-[url('/assets/images/background-pattern-desktop.svg')] bg-[url('/assets/images/background-pattern-mobile.svg')] bg-top bg-fixed md:h-[320px] h-[232px] ">
-      <div className="max-w-[600px] py-4 md:pt-[40px] md:pb-7 custom-shadow bg-white md:mx-auto mx-6 rounded-xl px-6 md:px-[40px]">
-        <header className="flex items-center gap-x-6 mb-[32px] ">
+      <div className="max-w-[600px] py-4 md:pt-[40px] md:pb-[35px] custom-shadow bg-white md:mx-auto mx-6 rounded-xl px-6 md:px-[40px]">
+        <header className="flex items-center gap-x-6 ">
           <img
             src="/assets/images/icon-star.svg"
             alt="star icon besides logo"
