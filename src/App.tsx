@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function App() {
   const [toggleStates, setToggleStates] = useState<boolean[]>([
-    false,
+    true,
     false,
     false,
     false,
