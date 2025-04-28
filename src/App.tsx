@@ -232,8 +232,7 @@ export default function App() {
                   aria-controls="accordion-panel-4"
                   id="accordion-button-4"
                 >
-                  How can I get help if I'm stuck on a Frontend Mentor
-                  challenge?
+                  How can I get help if I'm stuck on a challenge?
                   {!toggleStates[3] && (
                     <img
                       onClick={() => toggleFAQ(3)}
