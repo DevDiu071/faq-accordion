@@ -49,7 +49,7 @@ export default function App() {
                       onClick={() => toggleFAQ(0)}
                       src="/assets/images/icon-plus.svg"
                       alt="plus icon besides logo"
-                      className="w-[24.38px] h-[24.38px] cursor-pointer"
+                      className="w-[28.38px] h-[28.38px] cursor-pointer"
                     />
                   )}
                   {toggleStates[0] && (
@@ -57,7 +57,7 @@ export default function App() {
                       onClick={() => toggleFAQ(0)}
                       src="/assets/images/icon-minus.svg"
                       alt="minus icon besides logo"
-                      className="w-[24.38px] h-[24.38px] cursor-pointer"
+                      className="w-[28.38px] h-[28.38px] cursor-pointer"
                     />
                   )}
                 </button>
@@ -113,7 +113,7 @@ export default function App() {
                       onClick={() => toggleFAQ(1)}
                       src="/assets/images/icon-plus.svg"
                       alt="plus icon besides logo"
-                      className="w-[24.38px] h-[24.38px] cursor-pointer"
+                      className="w-[28.38px] h-[28.38px] cursor-pointer"
                     />
                   )}
                   {toggleStates[1] && (
@@ -121,7 +121,7 @@ export default function App() {
                       onClick={() => toggleFAQ(1)}
                       src="/assets/images/icon-minus.svg"
                       alt="minus icon besides logo"
-                      className="w-[24.38px] h-[24.38px] cursor-pointer"
+                      className="w-[28.38px] h-[28.38px] cursor-pointer"
                     />
                   )}
                 </button>
@@ -176,7 +176,7 @@ export default function App() {
                       onClick={() => toggleFAQ(2)}
                       src="/assets/images/icon-plus.svg"
                       alt="plus icon besides logo"
-                      className="w-[24.38px] h-[24.38px] cursor-pointer"
+                      className="w-[28.38px] h-[28.38px] cursor-pointer"
                     />
                   )}
                   {toggleStates[2] && (
@@ -184,7 +184,7 @@ export default function App() {
                       onClick={() => toggleFAQ(2)}
                       src="/assets/images/icon-minus.svg"
                       alt="minus icon besides logo"
-                      className="w-[24.38px] h-[24.38px] cursor-pointer"
+                      className="w-[28.38px] h-[28.38px] cursor-pointer"
                     />
                   )}
                 </button>
@@ -238,7 +238,7 @@ export default function App() {
                       onClick={() => toggleFAQ(3)}
                       src="/assets/images/icon-plus.svg"
                       alt="plus icon besides logo"
-                      className="w-[24.38px] h-[24.38px] cursor-pointer"
+                      className="w-[28.38px] h-[28.38px] cursor-pointer"
                     />
                   )}
                   {toggleStates[3] && (
@@ -246,7 +246,7 @@ export default function App() {
                       onClick={() => toggleFAQ(3)}
                       src="/assets/images/icon-minus.svg"
                       alt="minus icon besides logo"
-                      className="w-[24.38px] h-[24.38px] cursor-pointer"
+                      className="w-[28.38px] h-[28.38px] cursor-pointer"
                     />
                   )}
                 </button>
