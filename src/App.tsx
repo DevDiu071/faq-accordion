@@ -17,16 +17,16 @@ export default function App() {
 
   return (
     <div className="md:pt-[167px] pt-[142px] md:bg-[url('/assets/images/background-pattern-desktop.svg')] bg-[url('/assets/images/background-pattern-mobile.svg')] bg-top bg-fixed md:h-[320px] h-[232px] ">
-      <div className="max-w-[600px] pb-4 shadow-sm bg-white md:mx-auto mx-6 rounded-xl px-6 md:px-6">
-        <div className="flex items-center gap-x-6 py-6 ">
+      <div className="max-w-[600px] py-4 md:py-[40px] shadow-sm bg-white md:mx-auto mx-6 rounded-xl px-6 md:px-6">
+        <div className="flex items-center gap-x-6 ">
           <img
             src="/assets/images/icon-star.svg"
             alt="star icon besides logo"
             className="w-[20.99px] h-[20.99px] cursor-pointer md:w-[34px] md:h-[34px]"
           />
-          <h1 className="text-[32px] font-bold">FAQS</h1>
+          <h1 className="text-[32px] md:text-[56px] font-bold">FAQS</h1>
         </div>
-        <div className="border-b-2 border-pink mb-5 pb-5">
+        <div className="border-b-2 border-pink mb-5 pb-6">
           <div>
             <div>
               <h2
@@ -35,7 +35,7 @@ export default function App() {
                     toggleFAQ(0);
                   }
                 }}
-                className="text-[16px] font-semibold"
+                className="text-[18px] mt-4 font-semibold"
               >
                 <button
                   className="flex items-center w-full justify-between"
@@ -77,7 +77,7 @@ export default function App() {
                     aria-labelledby="accordion-button-1"
                     hidden={!toggleStates[0]}
                   >
-                    <p className="text-[14px] text-text-color mt-[24px]">
+                    <p className="text-[16px] text-text-color mt-[24px]">
                       Frontend Mentor offers realistic coding challenges to help
                       developers improve their frontend coding skills with
                       projects in HTML, CSS, and JavaScript. It's suitable for
@@ -90,7 +90,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="border-b-2 border-pink mb-5 pb-5">
+        <div className="border-b-2 border-pink mb-5 pb-6">
           <div>
             <div>
               <h2
@@ -99,7 +99,7 @@ export default function App() {
                     toggleFAQ(1);
                   }
                 }}
-                className="text-[16px] font-semibold"
+                className="text-[18px] font-semibold"
               >
                 <button
                   className="flex items-center w-full justify-between"
@@ -141,7 +141,7 @@ export default function App() {
                     aria-labelledby="accordion-button-1"
                     hidden={!toggleStates[1]}
                   >
-                    <p className="text-[14px] text-text-color mt-[24px]">
+                    <p className="text-[16px] text-text-color mt-[24px]">
                       Yes, Frontend Mentor offers both free and premium coding
                       challenges, with the free option providing access to a
                       range of projects suitable for all skill levels.
@@ -153,7 +153,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="border-b-2 border-pink mb-5 pb-5">
+        <div className="border-b-2 border-pink mb-5 pb-6">
           <div>
             <div>
               <h2
@@ -162,7 +162,7 @@ export default function App() {
                     toggleFAQ(2);
                   }
                 }}
-                className="text-[16px] font-semibold"
+                className="text-[18px] font-semibold"
               >
                 <button
                   className="flex items-center w-full justify-between"
@@ -204,7 +204,7 @@ export default function App() {
                     aria-labelledby="accordion-button-1"
                     hidden={!toggleStates[2]}
                   >
-                    <p className="text-[14px] text-text-color mt-[24px]">
+                    <p className="text-[16px] text-text-color mt-[24px]">
                       Yes, you can use projects completed on Frontend Mentor in
                       your portfolio. It's an excellent way to showcase your
                       skills to potential employers!
@@ -215,7 +215,7 @@ export default function App() {
             </AnimatePresence>
           </div>
         </div>
-        <div className="border-b-2 border-pink mb-5 pb-5">
+        <div className="border-b-2 border-pink pb-6">
           <div>
             <div>
               <h2
@@ -224,7 +224,7 @@ export default function App() {
                     toggleFAQ(3);
                   }
                 }}
-                className="text-[16px] font-semibold "
+                className="text-[18px] font-semibold "
               >
                 <button
                   className="flex items-center w-full justify-between"
@@ -267,7 +267,7 @@ export default function App() {
                     aria-labelledby="accordion-button-1"
                     hidden={!toggleStates[3]}
                   >
-                    <p className="text-[14px] text-text-color mt-[24px]">
+                    <p className="text-[16px] text-text-color mt-[24px]">
                       The best place to get help is inside Frontend Mentor's
                       Discord community. There's a help channel where you can
                       ask questions and seek support from other community
